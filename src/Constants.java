@@ -4,6 +4,8 @@ import java.lang.reflect.Type;
  * Created by novas on 16-6-10.
  */
 public class Constants {
+    //jar文件路径
+    public static String jarPath="/usr/Adoop/algocenter.jar";
     //支持三种操作， 1 获取所有函数 2 获取某个函数 3 获取所有函数的个数
     public static String GETALL="1";
     public static String SPEC="2";

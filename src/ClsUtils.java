@@ -20,10 +20,10 @@ public class ClsUtils {
 
     public static void init()
     {
-        File file = new File("/home/novas/fcm.jar");
+        File file = new File(Constants.jarPath);
         URL url= null;
         try {
-            url = new URL("jar:file:/home/novas/fcm.jar!/");
+            url = new URL("jar:file:"+Constants.jarPath+"!/");
         } catch (MalformedURLException e) {
             e.printStackTrace();
         }
